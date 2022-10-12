@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Cine</title>
+    <link href="assets/css/estilos.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@500&family=Poppins:wght@1,500&display=swap"
+    rel="stylesheet">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body translate="no" style="background-color:black ; color: #ffffff; "></body>
+	<body>
+		<!--barra de navegacion-->
+	 <nav class="navbar navbar-expand-lg bg-light">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html">Mundo Cine</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+				aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="indexGitanos.html">Inicio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="series.html">Series</a>
+					</li>
+	
+					
+					<li class="nav-item">
+						<a class="nav-link" href="peliculas.html">Películas</a>
+					</li>
+					
+				</ul>
+				<form class="d-flex" role="search">
+					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-success" type="submit">Buscar</button>
+				</form>
+			</div>
+		</div>
+	</nav> 
+
+    <div class="card bg-dark text-white mb-3">
+        <img src="assets/img/banner.png" class="card-img">
+        <div class="card-img-overlay">
+            <h5 class="card-title">Las mejores series</h5>
+            <p class="card-text">Disfruta de las mejores series desde la comodidad de tu hogar y en cualquier momento.</p>
+         
+        </div>
+    </div>
+
+    <div class="container my-4 w-50">
+
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <!-- Diapositivas -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card bg-dark text-white m-width-100">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5 class="card-title">Breaking Bad</h5>
+                                    <p class="card-text">El profesor calmado de química de una secundaria, Walter White cree que su vida no puede ser peor.</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="assets/img/bb1.jpg" alt="Breaking" width="100%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="card bg-dark text-white m-width-100">
+                        <div class="row g-0">
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5 class="card-title">Stranger things</h5>
+                                    <p class="card-text">Cuando un niño desaparece, sus amigos, la familia y la policía se ven envueltos en una serie de eventos misteriosos al tratar de encontrarlo.</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="assets/img/st1.jpg" alt="Stranger" width="100%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="card bg-dark text-white m-width-100">
+                        <div class="row g-0">
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5 class="card-title">Dark</h5>
+                                    <p class="card-text">La desaparición de dos niños muestra los vínculos entre cuatro familias y expone el pasado de una pequeña ciudad.</p>
+                                
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="assets/img/Dark2.jpg" alt="Dark" width="100%">
+                            </div>
+                        </div>
+                        </div>
+                </div>
+            </div>
+            <!-- Controles -->
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    
+    </div><!--//container-->
+    
+    <!-- jQuery full con ajax -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+   integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+   crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+</body>

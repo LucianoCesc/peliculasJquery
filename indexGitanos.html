@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Cine</title>
+    <link href="assets/css/estilos.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@500&family=Poppins:wght@1,500&display=swap"
+    rel="stylesheet">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+
+ 
+
+</head>
+
+
+	<body translate="no" style="background-color:black ; color: #ffffff; "></body>
+	<body>
+		<!--barra de navegacion-->
+	 <nav class="navbar navbar-expand-lg bg-light">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html">Mundo Cine</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+				aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="indexGitanos.html">Inicio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="series.html">Series</a>
+					</li>
+	
+					
+					<li class="nav-item">
+						<a class="nav-link" href="peliculas.html">Películas</a>
+					</li>
+					
+				</ul>
+				<form class="d-flex" role="search">
+					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-success" type="submit">Buscar</button>
+				</form>
+			</div>
+		</div>
+	</nav> 
+	
+	
+	
+	
+
+
+<!-- Carrusel peliculas-->	
+		<div class="peliculas-recomendadas contenedor ">
+			<div class="contenedor-titulo-controles; text-center">
+				<h3 >Películas</h3>
+				<div class="indicadores"></div>
+			</div>
+
+			<div class="contenedor-principal">
+				<button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+				<div class="contenedor-carousel">
+					<div class="carousel">
+						<div class="pelicula">
+							<a href="#"><img src="assets/img/padrino.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="assets/img/f2.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="assets/img/f3.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="assets/img/f4.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="assets/img/f5.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="assets/img/f6.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="assets/img/f7.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="assets/img/f8.png" alt=""></a>
+						</div>
+                        <div class="pelicula">
+							<a href="#"><img src="assets/img/f1.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="assets/img/f2.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="assets/img/f3.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="assets/img/f4.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="assets/img/f5.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="assets/img/f6.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="assets/img/f7.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="assets/img/f8.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="assets/img/f1.png" alt=""></a>
+						</div>
+						
+					</div>
+				</div>
+
+				<button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+			</div>
+		</div>
+
+	</main>
+
+	
+	<footer>
+		<p class="bg-dark text-center text-white p-3"> ©️ 2022 Mundo Cine 
+	</footer>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+
+	<script src="assets/js/main.js"></script>
+</body>
+</html>
