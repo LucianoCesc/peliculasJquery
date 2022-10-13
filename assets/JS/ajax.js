@@ -1,10 +1,11 @@
 let filmes = function(titulo, search) {
+    $('#contenido-ficha').html(`<h2 class="text-center">Cargando contenido de ${titulo}</h2>`)
     $.ajax({ 
         type: "GET",
         url: "http://www.omdbapi.com/?apikey=9881254f&s="+search, 
         dataType: "json",
         success: function(data) {
-            $('#contenido-ficha').append(`<h2 class="text-center">Saga de ${titulo}</h2>`)
+            $('#contenido-ficha').html(`<h2 class="text-center">Saga de ${titulo}</h2>`)
             // $('#contenido-ficha').append(`<div class="d-flex row">`)
             data.Search.forEach(peli => {
                 $('#contenido-ficha').append(
@@ -34,3 +35,4 @@ $(function() {
     // );
     
 });
+
