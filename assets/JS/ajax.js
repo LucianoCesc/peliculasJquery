@@ -6,7 +6,6 @@ let filmes = function(titulo, search) {
         dataType: "json",
         success: function(data) {
             $('#contenido-ficha').html(`<h2 class="text-center">Saga de ${titulo}</h2>`)
-            // $('#contenido-ficha').append(`<div class="d-flex row">`)
             data.Search.forEach(peli => {
                 $('#contenido-ficha').append(
                     `<div class="card col-12 col-sm-8 col-md-3">
@@ -20,19 +19,10 @@ let filmes = function(titulo, search) {
                     </div>
                     `
                 );
-            // $('#contenido-ficha').append(`</div>`)
             });
 
         }
     });
-    // return this;
 };
 
-$(function() {
-    // $("#starwars").on("click",
-    //     filmes('Star Wars','star+wars')
-    //     console.log("HOLA")
-    // );
-    
-});
 
