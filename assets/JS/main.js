@@ -6,9 +6,6 @@ const peliculas = document.querySelectorAll('.pelicula');
 const flechaIzquierda = document.getElementById('flecha-izquierda');
 const flechaDerecha = document.getElementById('flecha-derecha');
 
-// starwars.addEventListener('click', $('#contenido-ficha').pelicula('Star Wars','star+wars'));
-// $('#starwars').on('click',pelicula('Star Wars','star+wars'));
-
 // ? ----- ----- Event Listener para la flecha derecha. ----- -----
 flechaDerecha.addEventListener('click', () => {
 	fila.scrollLeft += fila.offsetWidth;
